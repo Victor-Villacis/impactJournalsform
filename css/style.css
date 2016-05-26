@@ -50,6 +50,7 @@ font-size:1.3em;
   height: 305px;
   position: relative;
   top: -5px;
+  right: 40px;
   border: 7px solid black;
 }
 
@@ -63,7 +64,7 @@ textarea {
 }
 
 .form {
-    width: 100%;
+    width: 93%;
     padding: 6px 12px;
     font-size: 14px;
     line-height: 1.42857143;
@@ -85,4 +86,10 @@ textarea {
   color: white;
   font-size: .83em;
 
+}
+
+#send{
+  float:right;
+  position: relative;
+  right: 40px;
 }
