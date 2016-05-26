@@ -1,8 +1,8 @@
 <?php
 
 // configure variables
-$from = 'info@oncotarget.com';
-$sendTo = 'support@oncotarget.com';
+$from = '<info@oncotarget.com>';
+$sendTo = '<support@oncotarget.com>';
 $subject = 'New message from contact form';
 $fields = array('name' => 'Name', 'surname' => 'Surname', 'phone' => 'Phone', 'email' => 'Email', 'address'=> 'Address', 'subject' => 'Subject' 'message' => 'Message'); // array variable name => Text to appear in email
 $okMessage = 'Contact form successfully submitted. Thank you!';
