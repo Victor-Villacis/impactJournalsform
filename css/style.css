@@ -34,3 +34,27 @@ li a:hover {
   color:white;
   top:50px;
 }
+
+#line {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+    border-style: solid;
+    border-bottom: thick solid rgba(156, 156, 156, 1);
+    position: relative;
+    bottom: 23px;
+}
+#map{
+  width: 33%;
+  height: 300px;
+  position: relative;
+  top: 60px;
+}
+
+#contact-form{
+  position: relative;
+  bottom: 190px;
+}
