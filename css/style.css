@@ -49,12 +49,22 @@ li a:hover {
 }
 #map{
   width: 33%;
-  height: 300px;
+  height: 320px;
   position: relative;
-  top: 60px;
+  top: 140px;
 }
 
 #contact-form{
   position: relative;
-  bottom: 190px;
+  bottom: 201px;
+}
+
+#address{
+  text-align: center;
+  color: white;
+  
+}
+
+#copyright{
+  text-align: center;
 }

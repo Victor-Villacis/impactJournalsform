@@ -27,7 +27,7 @@
 </nav>
 <div id="line"></div>
 <div class="container">
-  <p class="col-xs-6">Please fill out this form to contact our publishing offices.  Your email will be routed to the correct department and you will recieve a follow up within 5-7 business days</p>
+  <h4 class="col-xs-6">Please fill out this form to contact our publishing offices.  Your email will be routed to the correct department and you will recieve a follow up within 5-7 business days</h4>
 <!-- <form action="MAILTO:support@oncotarget.com" method="post" enctype="text/plain"> -->
 <div id="map" class="col-md-6 col-xs-6"></div>
 <form class="col-md-6 col-xs-6"action="contact.php" id="contact-form" method="post" name=
@@ -78,6 +78,28 @@
           </div>
         </div>
       </div>
+       <div class="row">
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="form_address">Address *</label> <input class=
+            "form-control" data-error="Address is required." id="form_address"
+            name="address" placeholder="Please enter your address *" required=
+            "required" type="text">
+            <div class="help-block with-errors">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="form_subject">Subject *</label> <input class=
+            "form-control" data-error="Subject is required." id=
+            "form_subject" name="subject" placeholder=
+            "Please enter the subject *" required="required" type="text">
+            <div class="help-block with-errors">
+            </div>
+          </div>
+        </div>
+      </div>
       <div class="row">
         <div class="col-md-12">
           <div class="form-group">
@@ -103,15 +125,27 @@
     </div>
   </form>
 </div>
+<div style="background-color:white" class="text-muted"><br><br><br><br></div>
+<div id="address"style="background-color:black"><br><h3>Headquarters</h3>
+6666 East Quaker Street
+<br>Orchard Park, NY 14127
+<br>Phone: 1-800-922-0957
+<br>Fax: 1-716-508-8254
+<br>e-Fax: 1-716-608-1380</div>
+<br>
+
+<div id="copyright">Copyright @ 2008-2016 Impact Journals, LLC. All rights reserved.<br>
+Impact Journals is a registered trademark of Impact Journals, <br>L.L.C.</div>
+
+<div style="background-color:black"><br><br><br><br></div>
 
 
-
-
-
-
-
-  <script src="js/form.js"type="text/javascript"></script>
-   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCry71bYNuztNJ4rV2XqlKYY_Zc5K0PvHg&callback=initMap"
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="js/form.js"type="text/javascript"></script>
+    <script src="js/validator.js"></script>
+    <script src="js/contact.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCry71bYNuztNJ4rV2XqlKYY_Zc5K0PvHg&callback=initMap"
     async defer></script>
 </body>
 </html>
