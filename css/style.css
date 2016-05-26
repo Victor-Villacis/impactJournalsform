@@ -17,54 +17,72 @@ li a {
     text-decoration: none;
 }
 
-li a:hover {
+/*li a:hover {
     background-color: #111;
-}
+}*/
 
 #logo{
-  position: absolute;
-  left: 34%;
-  color: white;
-  top:30px;
+  position: relative;
+  left: 46%;
+  top: -10px;
 }
 
-#logo1{
+
+#social{
   position: relative;
-  left: 22%;
-  color:white;
-  top:50px;
+  left: 2%;
+  top:  45px;
+  z-index: 1;
 }
 
 #line {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
-    border-style: solid;
-    border-bottom: thick solid rgba(156, 156, 156, 1);
+    border-bottom:  solid #FFFFFF;
     position: relative;
-    bottom: 23px;
-}
-#map{
-  width: 33%;
-  height: 320px;
-  position: relative;
-  top: 140px;
+    bottom: 27px;
 }
 
-#contact-form{
+#formtext{
+font-size:1.3em;
+}
+
+#map{
+  width: 308px;
+  height: 299px;
   position: relative;
-  bottom: 201px;
+  top: -5px;
+  border: 7px solid black;
+}
+
+input[type="text"],
+input[type="email"],
+
+
+
+textarea {
+  background-color : #000000;
+}
+
+.form {
+    width: 100%;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: white;
+    background-color: #000000;
+    background-image: none;
+    border: 1px solid #ccc;
+    margin: -8px
 }
 
 #address{
   text-align: center;
   color: white;
-  
+
 }
 
 #copyright{
   text-align: center;
+  color: white;
+  font-size: .83em;
+
 }

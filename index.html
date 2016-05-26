@@ -3,147 +3,144 @@
 <head>
   <meta charset="UTF-8">
   <title>impactjournals</title>
-  <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 </head>
-<body style="background-color:rgba(156, 156, 156, 1)">
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <!-- Potential Link -->
-      <a class="navbar-brand" href="#">
-        <img id="logo"alt="Brand" src="img/logo.png">
-      </a>
-      <h1 id="logo1" class="col-md-4">IMPACT<span>Journals</span></h1>
-     <ul class="container">
-      <li><a href="https://www.linkedin.com/company/impact-journals"><img src="img/linkedIn.png" alt="linkedIn"></a></li>
-      <li><a href="https://www.facebook.com/Impact-Journals-1713054122272973/"><img src="img/fb.png" alt="fb"></a></li>
-      <li><a href="https://twitter.com/ImpactJrnls"><img src="img/twitter.png" alt="twitter"></a></li>
-      <li><a href="https://plus.google.com/u/0/115144563776270728441/about?gmbpt=true&hl=en"><img src="img/googleplus.png" alt="googleplus"></a></li>
-      <li><a href="https://www.youtube.com/channel/UCaQzLbgdiu90cTr-rH4lKAQ?guided_help_flow=3"><img src="img/YouTube.png" alt="YouTube"></a></li>
+<body style="background-color:#9C9C9C">
+<nav class="navbar navbar-inverse" style="background-color:#000000"> <br>
+  <div class="row">
+        <div class="col-md-6 col-xs-2"><img alt="Brand" src="img/logo.jpg" id="logo"></div>
+    <ul class="col-md-3 col-xs-8 container" id="social">
+        <li><a href="https://www.youtube.com/channel/UCaQzLbgdiu90cTr-rH4lKAQ?guided_help_flow=3"><img src="img/YouTube.png" alt="YouTube"></a></li>
+        <li><a href="https://plus.google.com/u/0/115144563776270728441/about?gmbpt=true&hl=en"><img src="img/googleplus.png" alt="googleplus"></a></li>
+        <li><a href="https://twitter.com/ImpactJrnls"><img src="img/twitter.png" alt="twitter"></a></li>
+        <li><a href="https://www.facebook.com/Impact-Journals-1713054122272973/"><img src="img/fb.png" alt="fb"></a></li>
+        <li><a href="https://www.linkedin.com/company/impact-journals"><img src="img/linkedIn.png" alt="linkedIn"></a></li>
     </ul>
-    </div>
   </div>
 </nav>
 <div id="line"></div>
-<div class="container">
-  <h4 class="col-xs-6">Please fill out this form to contact our publishing offices.  Your email will be routed to the correct department and you will recieve a follow up within 5-7 business days</h4>
-<!-- <form action="MAILTO:support@oncotarget.com" method="post" enctype="text/plain"> -->
-<div id="map" class="col-md-6 col-xs-6"></div>
-<form class="col-md-6 col-xs-6"action="contact.php" id="contact-form" method="post" name="contact-form" role="form">
+<!-- center body -->
+<div class="container col-md-offset-3">
+  <div class="row">
+    <p id="formtext"class="container col-md-9">Please fill out this form to contact our publishing offices.  Your email will be routed to the correct department and you will recieve a follow up within 5-7 business days.</p>
+  </div>
+  <div class="row">
+    <form class="col-md-6 col-xs-6"action="contact.php" id="contact-form" method="post" name="contact-form" role="form">
     <div class="messages">
     </div>
     <div class="controls">
+
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-12">
           <div class="form-group">
-            <label for="form_name">Firstname *</label> <input class=
-            "form-control" data-error="Firstname is required." id="form_name"
-            name="name" placeholder="Please enter your firstname *" required=
+            <label for="form_name"> </label> <input class=
+            "form" data-error="Name is required." id="form_name"
+            name="name" placeholder="Name" required=
             "required" type="text">
             <div class="help-block with-errors">
             </div>
           </div>
         </div>
-        <div class="col-md-6">
-          <div class="form-group">
-            <label for="form_lastname">Lastname *</label> <input class=
-            "form-control" data-error="Lastname is required." id=
-            "form_lastname" name="surname" placeholder=
-            "Please enter your lastname *" required="required" type="text">
-            <div class="help-block with-errors">
-            </div>
-          </div>
-        </div>
       </div>
+
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-12">
           <div class="form-group">
-            <label for="form_email">Email *</label> <input class="form-control"
+            <label for="form_email"></label> <input class="form"
             data-error="Valid email is required." id="form_email" name="email"
-            placeholder="Please enter your email *" required="required" type=
+            placeholder="Email" required="required" type=
             "email">
             <div class="help-block with-errors">
             </div>
           </div>
         </div>
-        <div class="col-md-6">
+        </div>
+
+        <div class="row">
+        <div class="col-md-12">
           <div class="form-group">
-            <label for="form_phone">Phone</label> <input class="form-control"
-            id="form_phone" name="phone" placeholder="Please enter your phone"
-            type="tel">
+            <label for="form_phone"></label> <input class="form"
+            id="form_phone" name="phone" placeholder="Phone"
+            type="text">
             <div class="help-block with-errors">
             </div>
           </div>
         </div>
       </div>
+
        <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-12">
           <div class="form-group">
-            <label for="form_address">Address *</label> <input class=
-            "form-control" data-error="Address is required." id="form_address"
-            name="address" placeholder="Please enter your address *" required=
+            <label for="form_address"></label> <input class=
+            "form" data-error="Address is required." id="form_address"
+            name="address" placeholder="Address" required=
             "required" type="text">
             <div class="help-block with-errors">
             </div>
           </div>
         </div>
-        <div class="col-md-6">
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
           <div class="form-group">
-            <label for="form_subject">Subject *</label> <input class=
-            "form-control" data-error="Subject is required." id=
+            <label for="form_subject"></label> <input class=
+            "form" data-error="Subject is required." id=
             "form_subject" name="subject" placeholder=
-            "Please enter the subject *" required="required" type="text">
+            "Subject" required="required" type="text">
             <div class="help-block with-errors">
             </div>
           </div>
         </div>
       </div>
+
       <div class="row">
         <div class="col-md-12">
           <div class="form-group">
-            <label for="form_message">Message *</label>
-            <textarea class="form-control" data-error=
+            <label for="form_message"></label>
+            <textarea  class="form" data-error=
             "Please,leave us a message." id="form_message" name="message"
-            placeholder="Message for me *" required="required" rows=
-            "4"></textarea>
+            placeholder="Message" required="required"  rows=
+            "6"></textarea>
             <div class="help-block with-errors">
             </div>
           </div>
         </div>
-        <div class="col-md-12">
-          <input class="btn btn-success btn-send" type="submit" value=
-          "Send message">
-        </div>
       </div>
+
       <div class="row">
         <div class="col-md-12">
-          <p class="text-muted"><strong>*</strong> These fields are required.</p>
+          <input class="btn btn-danger btn-send" style="background-color:#D52B1E; float:right" type="submit" value=
+          "Send">
         </div>
       </div>
     </div>
   </form>
+  <div id="map" class="col-md-6 col-xs-6"></div>
+  </div>
 </div>
+
 <div style="background-color:white" class="text-muted"><br><br><br><br></div>
 <div id="address"style="background-color:black"><br><h3>Headquarters</h3>
 6666 East Quaker Street
 <br>Orchard Park, NY 14127
 <br>Phone: 1-800-922-0957
 <br>Fax: 1-716-508-8254
-<br>e-Fax: 1-716-608-1380</div>
-<br>
+<br>e-Fax: 1-716-608-1380
+<br><br></div>
 
-<div id="copyright">Copyright @ 2008-2016 Impact Journals, LLC. All rights reserved.<br>
-Impact Journals is a registered trademark of Impact Journals, <br>L.L.C.</div>
+<div id="copyright" style="background:#404040"><br>Copyright @ 2008-2016 Impact Journals, LLC. All rights reserved.<br>
+Impact Journals is a registered trademark of Impact Journals, <br>L.L.C.<br><br></div>
 
 <div style="background-color:black"><br><br><br><br></div>
 
 
-    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-    <script src="js/map.js"type="text/javascript"></script>
-    <script src="js/validator.js"></script>
-    <script src="js/contact.js"></script>
+    <script src="js/map.js" type="text/javascript"></script>
+    <script src="js/validator.js" type="text/javascript"></script>
+    <script src="js/contact.js" type="text/javascript"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCry71bYNuztNJ4rV2XqlKYY_Zc5K0PvHg&callback=initMap"
     async defer></script>
 </body>
