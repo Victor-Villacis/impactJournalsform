@@ -30,7 +30,7 @@ li a {
 
 #social{
   position: relative;
-  left: 2%;
+  left: -90px;
   top:  45px;
   z-index: 1;
 }
@@ -50,7 +50,7 @@ font-size:1.3em;
   height: 325px;
   position: relative;
   top: -5px;
-  right: 17px;
+  right: 25px;
   border: 7px solid black;
 }
 
