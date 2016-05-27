@@ -23,7 +23,7 @@ li a {
 
 #logo{
   position: relative;
-  left: 46%;
+  left: 48%;
   top: -10px;
 }
 
@@ -47,10 +47,10 @@ font-size:1.3em;
 
 #map{
   width: 308px;
-  height: 305px;
+  height: 325px;
   position: relative;
   top: -5px;
-  right: 40px;
+  right: 17px;
   border: 7px solid black;
 }
 
@@ -72,7 +72,7 @@ textarea {
     background-color: #000000;
     background-image: none;
     border: 1px solid #ccc;
-    margin: -8px
+    margin: -5px
 }
 
 #address{
@@ -92,4 +92,15 @@ textarea {
   float:right;
   position: relative;
   right: 40px;
+}
+
+
+/*removes background whitespace*/
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
 }
